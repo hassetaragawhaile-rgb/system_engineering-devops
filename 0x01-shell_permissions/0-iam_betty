@@ -1,3 +1,2 @@
 #!/bin/bash
-# Switches the current user to betty
 su betty
