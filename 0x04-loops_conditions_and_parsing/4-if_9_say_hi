@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-i=1
+# A bash script that iterates 10 times to display "Best School", adding "Hi" on the 9th iteration.
 
+i=1
 while [ $i -le 10 ]
 do
   if [ $i -eq 9 ]
