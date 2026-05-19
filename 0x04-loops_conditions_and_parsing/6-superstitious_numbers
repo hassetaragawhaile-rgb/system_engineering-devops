@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# A bash script that loops 1 to 20 and uses a case statementto output specific "back luck" messages on the 4th, 9th and 17th iterations.
+
+
 i=1
 while [ $i -le 20 ]
 do
