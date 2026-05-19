@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#A bash script that uses for loop to list non-hidden files in the current directory, displaying onl the portion of each filename that follows the first dash (-).
+
 for file in *
 do
   if [[ "$file" != .* ]]
